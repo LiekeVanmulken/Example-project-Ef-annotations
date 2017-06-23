@@ -1,11 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace migrations_test_console
 {
@@ -50,5 +45,5 @@ namespace migrations_test_console
     public class Test
     {
         public int testfield { get; set; }
-    }
+    }  
 }
